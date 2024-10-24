@@ -5,12 +5,25 @@ Project Wallrun is a game more focused towards Player movement mechanics and int
 Scripts:
 |  Script       | Description                                     | Development Time |
 | ------------------- | ------------------------------------------|----------------- |
-| `Respawn.cs` | Respawns the player if the player collide with certain objects | ≈ 2 hours |
-| `Parallax.cs`  | Controls the Parallax Effects of the multiple BG | ≈ 1 hour |
-| `Movement.cs`  | Control the basic movements of the player like running, walljump, dash and jump | ≈ 4 hour |
-| `Timer.cs`  | Manages the time in Minute and second system and saves the fastest time inside a Json file | ≈ 4 hour |
-| `ScreenFade.cs` | Handles the transition effects between stages | ≈ 1 hour |
-| `etc`  | | ≈ 8 hours |
+| `Moveent.cs` | Controls the basic movements of the player like running, wallride, dash and jump and jump | ≈ 2 hours |
+| `Killzone.cs`  | Controls spawning location and what kills the player | ≈ 1 hour |
+| `FollowMouse.cs`  | Script that helps with making sure the camera follows the mouse by using Cursor.lockstate | ≈ 1 hour |
+| `Orb.cs`  | Extra mechanic Concept where if the player collides with gameobject their jumps get refreshed | ≈ 1 hour |
+| `etc`  | | |
+
+This project also uses these package:
+- Universal RP
+
+Post Processing used:
+- Bloom
+- Vignette
+- Colour adjustment
+- Shader Graph
+
+the game has:
+1. Movement Mechanic (Dash, WallRide, Jump, Running) using the `Movement.cs` script
+2. Post Processing, particle system and Shader Graph
+3. Objects that kills the player that has to be avoided
 
 ## Game controls
 | Key Binding       | Function          |
@@ -24,3 +37,6 @@ this game is developed in **Unity Editor 2022.3.46f1**
 Assets Used:
 https://screamingbrainstudios.itch.io/tiny-texture-pack-3
 https://ladytabletop.itch.io/industrial-texture-pack
+
+itch.io: 
+
