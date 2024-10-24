@@ -31,6 +31,7 @@ the game has:
 1. Movement Mechanic (Dash, WallRide, Jump, Running) using the `Movement.cs` script
 2. Post Processing, particle system and Shader Graph
 3. Objects that kills the player that has to be avoided
+4. Objects that can refreshes the player Jump
 
 ## Game controls
 | Key Binding       | Function          |
