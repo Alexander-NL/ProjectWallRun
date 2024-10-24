@@ -1,6 +1,13 @@
 ## About
 Project Wallrun is a game more focused towards Player movement mechanics and interaction between player and stages. Player can run, Dash, Double Jump, Jump, Wall ride and when the player touch certain game object their double jump refreshes. Polished version for showcase and very scalable with new mechanics or assets
 
+<tbody>
+    <tr>
+      <td><img src="https://github.com/Alexander-NL/ProjectWallRun/blob/main/3Dplatformer%20(1).gif"/></td>
+    </tr>
+  
+<br>
+
 ## Scripts and Features
 Scripts:
 |  Script       | Description                                     | Development Time |
